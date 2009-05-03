@@ -1,5 +1,8 @@
 \version "2.12.0"
 
+\tocItem \markup "Pingneacha Rua agus Prás"
+\tocItem \markup "Coppers and Brass"
+
 \score {
 \relative c'' {
     \key g \major
@@ -41,12 +44,12 @@
     a8 g g g4
     }
 }
-}
 
 \header {
-    title = "Pingneacha Rua agis Prás"
+    title = "Pingneacha Rua agus Prás"
     subtitle = "Coppers and Brass"
     meter = "Poirt Dúbalta"
     volume = "1"
     number = "4"
+}
 }

@@ -1,5 +1,8 @@
 \version "2.12.0"
 
+\tocItem \markup "Carraig an tSoip"
+\tocItem \markup "Cook in the Kitchen, The"
+
 \score {
 \relative c'' {
     \key g \major
@@ -29,7 +32,6 @@
     b8 g g g4
     }
 }
-}
 
 \header {
     title = "Carraig an tSoip"
@@ -37,4 +39,5 @@
     meter = "Poirt Dúbalta"
     volume = "1"
     number = "3"
+}
 }

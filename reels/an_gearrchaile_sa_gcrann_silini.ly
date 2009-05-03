@@ -1,5 +1,8 @@
 \version "2.12.0"
 
+\tocItem \markup "Gearrchaile sa gCrann Silíní, An"
+\tocItem \markup "Maid in the Cherry Tree, The"
+
 \score {
 \relative c'' {
     \key g \major
@@ -26,7 +29,6 @@
     d'8 b g b c a a4
     \bar "|."
 }
-}
 
 \header {
     title = "An Gearrchaile sa gCrann Silíní"
@@ -34,4 +36,5 @@
     meter = "Ríleanna"
     volume = "1"
     number = "103"
+}
 }

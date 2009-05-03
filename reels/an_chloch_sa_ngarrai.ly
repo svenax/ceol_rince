@@ -1,5 +1,8 @@
 \version "2.12.0"
 
+\tocItem \markup "Chloch sa nGarraí, An"
+\tocItem \markup "Stone in the Field, The"
+
 \score {
 \relative c'' {
     \key g \major
@@ -8,7 +11,7 @@
     \partial 8 a8
     d,8 a' a g a b c d
     e8 a a fis \acciaccatura a8 g e d b
-    c4. a8 b g g4_\lheel
+    c4. a8 b g g4-^
     a8 c b g g e d8. a'16
     d,8 a' a g a b c d
     e8 a a fis \acciaccatura a8 g e d b
@@ -23,10 +26,9 @@
     a8 c b a g e d8. d'16
     e8 a a4 b8 a g b 
     a8 g e fis g fis g a
-    b8 g a fis \times 2/3 {g fis e} d b
+    b8 g a fis \times 2/3 { g8 fis e } d b
     a8 c b g a4.
     \bar "|."
-}
 }
 
 \header {
@@ -36,3 +38,5 @@
     volume = "1"
     number = "104"
 }
+}
+

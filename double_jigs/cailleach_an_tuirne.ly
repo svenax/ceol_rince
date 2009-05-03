@@ -1,5 +1,8 @@
 \version "2.12.0"
 
+\tocItem \markup "Cailleach an Túirne"
+\tocItem \markup "Hag of the Spinning Wheel, The"
+
 \score {
 \relative c'' {
     \key g \major
@@ -53,7 +56,6 @@
     g4. g4
     }
 }
-}
 
 \header {
     title = "Cailleach an Túirne"
@@ -61,4 +63,5 @@
     meter = "Poirt Dúbalta"
     volume = "1"
     number = "1"
+}
 }

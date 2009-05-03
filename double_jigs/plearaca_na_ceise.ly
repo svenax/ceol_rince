@@ -1,5 +1,8 @@
 \version "2.12.0"
 
+\tocItem \markup "Pleáráca na Céise"
+\tocItem \markup "Humours of Kesh, The"
+
 \score {
 \relative c'' {
     \key g \major
@@ -37,7 +40,6 @@
     c8 a fis g4
     \bar "|."
 }
-}
 
 \header {
     title = "Pleáráca na Céise"
@@ -45,4 +47,5 @@
     meter = "Poirt Dúbalta"
     volume = "1"
     number = "2"
+}
 }

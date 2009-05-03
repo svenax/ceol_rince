@@ -1,5 +1,8 @@
 \version "2.12.0"
 
+\tocItem \markup "Tolladh an Leathair"
+\tocItem \markup "Boring the Leather"
+
 \score {
 \relative c'' {
     \key g \major
@@ -31,7 +34,6 @@
     a8 g fis g4.
     }
 }
-}
 
 \header {
     title = "Tolladh an Leathair"
@@ -39,4 +41,5 @@
     meter = "Poirt Dúbalta"
     volume = "1"
     number = "6"
+}
 }

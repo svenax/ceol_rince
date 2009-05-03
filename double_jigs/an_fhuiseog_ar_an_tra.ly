@@ -1,5 +1,8 @@
 \version "2.12.0"
 
+\tocItem \markup "Fhuiseog ar an Trá, An"
+\tocItem \markup "Lark on the Strand, The"
+
 \score {
 \relative c'' {
     \key g \major
@@ -27,7 +30,6 @@
     e g d e\turn d b
     }
 }
-}
 
 \header {
     title = "An Fhuiseog ar an Trá"
@@ -35,4 +37,5 @@
     meter = "Poirt Dúbalta"
     volume = "1"
     number = "7"
+}
 }

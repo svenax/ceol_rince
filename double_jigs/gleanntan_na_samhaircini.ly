@@ -1,5 +1,8 @@
 \version "2.12.0"
 
+\tocItem \markup "Gleanntán na Samhaircíní"
+\tocItem \markup "Primrose Glen, The"
+
 \score {
 \relative c'' {
     \key g \major
@@ -29,7 +32,6 @@
     a8\turn g fis g4
     }
 }
-}
 
 \header {
     title = "Gleanntán na Samhaircíní"
@@ -37,4 +39,5 @@
     meter = "Poirt Dúbalta"
     volume = "1"
     number = "5"
+}
 }
