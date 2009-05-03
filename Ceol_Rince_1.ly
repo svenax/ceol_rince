@@ -1,17 +1,6 @@
 \version "2.12.0"
 
-\paper {
-    print-all-headers = ##t
-    
-    scoreTitleMarkup = \markup {
-        \override #'(baseline-skip . 3)
-        \line {
-            \bold \fromproperty #'header:number .
-            \bold \fromproperty #'header:title –
-            \bold \fromproperty #'header:subtitle
-        }
-    }
-}
+\include "layout.ly"
 
 \book {
     \header {
