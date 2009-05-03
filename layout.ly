@@ -4,6 +4,8 @@
     #(set-paper-size "a4")
     print-page-number = ##t
     print-all-headers = ##t
+
+    bookTitleMarkup = ##f
     
     scoreTitleMarkup = \markup {
         \override #'(baseline-skip . 3)
@@ -13,6 +15,21 @@
             \bold \fromproperty #'header:title —
             \bold \fromproperty #'header:subtitle
         }
+    }
+    
+    oddHeaderMarkup = \markup {
+        \fill-line {
+        " "
+        \fromproperty #'header:title
+        \fromproperty #'page:page-number-string
+        }
+    }
+
+    evenHeaderMarkup = \markup
+        \fill-line {
+        \fromproperty #'page:page-number-string
+        \fromproperty #'header:title
+        " "
     }
 }
 
