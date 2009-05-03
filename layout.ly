@@ -7,6 +7,19 @@
 
     bookTitleMarkup = ##f
     
+    titlePageMarkup = \markup {
+        \fill-line {
+            \center-column {
+                \null \null \null \null \null \null
+                \line { \fontsize #6 "Breandán Breathnach" }
+                \null \null \null \null \null \null
+                \line { \fontsize #12 \italic "Ceol Rince na hÉireann" }
+                \null \null \null \null \null \null
+                \line { \fontsize #4 "Cuid" \fontsize #4 \fromproperty #'header:volume }
+            }
+        }
+    }
+    
     scoreTitleMarkup = \markup {
         \override #'(baseline-skip . 3)
         \line {
